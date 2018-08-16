@@ -1,0 +1,120 @@
+.shelfDisplay {
+	background-color: #E6E2AF;
+	padding: 50px 50px;
+	text-align: center;
+}
+
+.shelfDisplay_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.shelfDisplay_wrapper > * {
+	padding: 0;
+}
+
+.shelfDisplay__item {
+	width: 325px;
+	height: 600px;
+	margin-bottom: 130px;
+	border: 3px groove #A7A37E;
+	border-radius: 8px;
+	padding: 20px 10px;
+	background-color: #EFECCA;
+	box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.7);
+	margin-right: 10px;
+}
+
+.shelfDisplay__item__cover {
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border: 1px solid #000000;
+	position: relative;
+}
+
+.shelfDisplay__item__cover img {
+	height: 100%;
+	width: 100%;
+}
+
+.shelfDisplay__item__title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font: 24px 'Varela Round', sans-serif;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.shelfDisplay__item__buy-section {
+	margin-bottom: 10px;
+}
+
+.shelfDisplay__item__buy-section > * {
+	display: inline-block;
+}
+
+.shelfDisplay_wrapper h2 {
+	display: block;
+}
+
+.shelfDisplay__item__buy-section__price {
+	font: 24px 'Roboto', sans-serif;
+}
+
+.shelfDisplay__item__buy-section__quantity {
+	font: 18px 'Roboto', sans-serif;
+}
+
+.shelfDisplay__add-section {
+	padding: 50px;
+	height: 100vh;
+	box-sizing: border-box;
+	background-color: #A7A37E;
+	margin-top: 0;
+}
+
+.shelfDisplay__add-section input {
+	width: 500px;
+	height: 50px;
+	font: 24px 'Lato', sans-serif;
+	display: block;
+	margin-bottom: 40px;
+	background-color: #E6E2AF;
+	border: none;
+	padding: 0 20px;
+	outline: none;
+}
+.shelfDisplay__add-section input:focus {
+	outline: 3px solid #FFD34E;
+}
+.shelfDisplay__input-fields {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.shelfDisplay__add-section button {
+	background-color: #FAB54B;
+	font: 18px 'Lato', sans-serif;
+	text-transform: uppercase;
+	border: 2px solid #FFD34E;
+	border-radius: 30px;
+	padding: 10px 100px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	cursor: pointer;
+	outline: none;
+}
+
+.out-of-stock {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}

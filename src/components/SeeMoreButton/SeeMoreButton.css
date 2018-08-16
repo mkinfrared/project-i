@@ -1,0 +1,17 @@
+.see-more-button {
+	background-color: #FAB54B;
+	font: 18px 'Lato', sans-serif;
+	text-transform: uppercase;
+	border: 2px solid #FFD34E;
+	border-radius: 30px;
+	padding: 10px 100px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	cursor: pointer;
+	outline: none;
+}
+
+input[name="thumbnail"] {
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+.App {
+	width: 100%;
+	text-align: center;
+}
+
+.App > * {
+	box-sizing: border-box;
+}
+
+.App h1 {
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 50px;
+	color: #046380;
+	font: 32px 'Titan One', cursive;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	margin-top: 0;
+}

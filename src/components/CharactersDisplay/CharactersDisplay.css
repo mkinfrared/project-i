@@ -1,0 +1,36 @@
+.character-display {
+	text-align: center;
+	background-color: #EFECCA;
+	padding: 50px;
+	min-height: 100vh;
+	position: relative;
+}
+
+.character-display h1 {
+	text-align: center;
+	padding: 0;
+	display: block;
+}
+
+.character-display__section {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.char-card {
+	margin-right: 5px;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+}
+
+.char-img img {
+	padding: 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid #000000;
+}

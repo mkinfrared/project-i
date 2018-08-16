@@ -1,0 +1,11 @@
+.BuyButton {
+	margin-right: 30px;
+	background-color: #FAB54B;
+	padding: 5px 20px;
+	font: 18px 'Lato', sans-serif;
+	text-transform: uppercase;
+	border: 2px solid #FFD34E;
+	border-radius: 30px;
+	cursor: pointer;
+	outline: none;
+}
